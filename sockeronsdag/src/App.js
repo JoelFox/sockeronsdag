@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import polkagris from './polkagris.png';
 import './App.css';
 
