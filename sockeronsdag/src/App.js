@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import polkagris from './polkagris.png';
 import sugarprovider from './Hemkop_logo.png';
 import './App.css';
