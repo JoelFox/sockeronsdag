@@ -113,7 +113,8 @@ html {
 	background-repeat: no-repeat;
 	background-color: transparent !important;
 	height: 190px !important;
-	max-height: 500px;
+	max-height: none !important;
+	max-width: none !important;
 	transform: rotate(-90deg);
 }
 
@@ -123,7 +124,8 @@ html {
 	background-repeat: no-repeat;
 	background-color: transparent !important;
 	height: 175px !important;
-	max-height: 500px;
+	max-height: none !important;
+	max-width: none !important;
 	transform: rotate( -90deg);
 	background-position: center top;
 }
