@@ -101,7 +101,10 @@ html {
 
 .zyuFN {
 	background-color: transparent;
-	background-image: url('candy.jpg');
+	background-image: url('clockbg.png');
+	background-position: center;
+	background-size: 300px;
+	background-repeat: no-repeat;	
 }
 
 .cCHUep {
@@ -116,10 +119,10 @@ html {
 
 .expkjb {
 	background-image: url('polkagris.png');
-	background-size: 108%;
+	background-size: 106%;
 	background-repeat: no-repeat;
 	background-color: transparent;
-	height: 193px;
+	height: 175px;
 	max-height: 500px;
 	transform: rotate( -90deg);
 	background-position: center top;
