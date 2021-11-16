@@ -108,21 +108,21 @@ html {
 }
 
 .cCHUep {
-	background-image: url('lollipop.png');
+	background-image: url('lollipop.png') !important;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	background-color: transparent;
-	height: 190px;
+	background-color: transparent !important;
+	height: 190px !important;
 	max-height: 500px;
 	transform: rotate(-90deg);
 }
 
 .expkjb {
-	background-image: url('polkagris.png');
+	background-image: url('polkagris.png') !important;
 	background-size: 106%;
 	background-repeat: no-repeat;
-	background-color: transparent;
-	height: 175px;
+	background-color: transparent !important;
+	height: 175px !important;
 	max-height: 500px;
 	transform: rotate( -90deg);
 	background-position: center top;
