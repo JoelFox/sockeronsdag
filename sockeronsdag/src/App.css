@@ -9,7 +9,6 @@ html {
 .App-logo {
 	height: 40vmin;
 	pointer-events: none;
-	display: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -89,43 +88,4 @@ html {
 	100% {
 		transform: scale(1);
 	}
-}
-
-.jgsQQW, .cCHUep, .jImxOi {
-	display: none !important;
-}
-
-.fcrYGG{
-	background-color: #fff;
-}
-
-.zyuFN {
-	background-color: transparent;
-	background-image: url('clockbg.png');
-	background-position: center;
-	background-size: 300px;
-	background-repeat: no-repeat;	
-}
-
-.cCHUep {
-	background-image: url('lollipop.png') !important;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-color: transparent !important;
-	height: 190px !important;
-	max-height: none !important;
-	max-width: none !important;
-	transform: rotate(-90deg);
-}
-
-.expkjb {
-	background-image: url('polkagris.png') !important;
-	background-size: 106%;
-	background-repeat: no-repeat;
-	background-color: transparent !important;
-	height: 175px !important;
-	max-height: none !important;
-	max-width: none !important;
-	transform: rotate( -90deg);
-	background-position: center top;
 }

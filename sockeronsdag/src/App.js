@@ -1,5 +1,4 @@
 import polkagris from './polkagris.png';
-import AnalogClock from 'analog-clock-react';
 import sugarprovider from './Hemkop_logo.png';
 import './App.css';
 
@@ -36,7 +35,6 @@ function App() {
 					</ul>
 				</div>
 				<img src={polkagris} className="App-logo" alt="logo" />
-				<AnalogClock {...options} />
 			</header>
 		</div>
 	);
