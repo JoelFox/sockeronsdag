@@ -27,13 +27,13 @@ function App() {
 				<div className="App-event">
 					<ul className="App-eventList">
 						<li className="App-eventListItem is-animated">
-							<span>2021-12-08</span><img src={sugarprovider} className="App-eventImage" />
-						</li>
-						<li className="App-eventListItem">
 							<span>2021-12-15</span><img src={sugarprovider} className="App-eventImage" />
 						</li>
 						<li className="App-eventListItem">
 							<span>2021-12-22</span><img src={sugarprovider} className="App-eventImage" />
+						</li>
+						<li className="App-eventListItem">
+							<span>2021-12-29</span><img src={sugarprovider} className="App-eventImage" />
 						</li>
 					</ul>
 				</div>
