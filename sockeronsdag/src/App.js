@@ -27,7 +27,13 @@ function App() {
 				<div className="App-event">
 					<ul className="App-eventList">
 						<li className="App-eventListItem is-animated">
-							<span>2022-06-22</span><img src={sugarprovider} className="App-eventImage" />
+							<span>2022-11-02</span><img src={sugarprovider} className="App-eventImage" />
+						</li>
+						<li className="App-eventListItem">
+							<span>2022-11-09</span><img src={sugarprovider} className="App-eventImage" />
+						</li>
+						<li className="App-eventListItem">
+							<span>2022-11-16</span><img src={sugarprovider} className="App-eventImage" />
 						</li>
 					</ul>
 				</div>
