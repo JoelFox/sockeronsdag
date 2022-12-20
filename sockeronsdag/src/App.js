@@ -1,6 +1,7 @@
 import polkagris from './polkagris.png';
 import sugarprovider from './Hemkop_logo.png';
 import './App.css';
+import Snowfall from "react-snowfall";
 
 function App() {
 
@@ -21,19 +22,20 @@ function App() {
 
 	return (
 		<div className="App">
+			<Snowfall />
 			<header className="App-header">
 				<h1 className="App-headingH1">Sockeronsdag</h1>
 				<h4 className="App-subHeading">Upcoming event:</h4>
 				<div className="App-event">
 					<ul className="App-eventList">
 						<li className="App-eventListItem is-animated">
-							<span>2022-12-07</span><img src={sugarprovider} className="App-eventImage" />
-						</li>
-						<li className="App-eventListItem">
-							<span>2022-12-14</span><img src={sugarprovider} className="App-eventImage" />
-						</li>
-						<li className="App-eventListItem">
 							<span>2022-12-21</span><img src={sugarprovider} className="App-eventImage" />
+						</li>
+						<li className="App-eventListItem">
+							<span>2023-01-04</span><img src={sugarprovider} className="App-eventImage" />
+						</li>
+						<li className="App-eventListItem">
+							<span>2023-01-11</span><img src={sugarprovider} className="App-eventImage" />
 						</li>
 					</ul>
 				</div>
