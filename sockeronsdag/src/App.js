@@ -1,7 +1,6 @@
 import polkagris from './polkagris.png';
 import sugarprovider from './Hemkop_logo.png';
 import './App.css';
-import Snowfall from "react-snowfall";
 
 function App() {
 
