@@ -22,20 +22,19 @@ function App() {
 
 	return (
 		<div className="App">
-			<Snowfall />
 			<header className="App-header">
 				<h1 className="App-headingH1">Sockeronsdag</h1>
 				<h4 className="App-subHeading">Upcoming event:</h4>
 				<div className="App-event">
 					<ul className="App-eventList">
 						<li className="App-eventListItem is-animated">
-							<span>2023-01-18</span><img src={sugarprovider} className="App-eventImage" />
+							<span>2023-02-08</span><img src={sugarprovider} className="App-eventImage" />
 						</li>
 						<li className="App-eventListItem">
-							<span>2023-01-25</span><img src={sugarprovider} className="App-eventImage" />
+							<span>2023-02-15</span><img src={sugarprovider} className="App-eventImage" />
 						</li>
 						<li className="App-eventListItem">
-							<span>2023-02-01</span><img src={sugarprovider} className="App-eventImage" />
+							<span>2023-02-22</span><img src={sugarprovider} className="App-eventImage" />
 						</li>
 					</ul>
 				</div>
