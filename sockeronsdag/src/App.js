@@ -4,6 +4,15 @@ import './App.css';
 
 function App() {
 
+	var date1 = new Date();
+	date1.setDate(date1.getDate() + (3 + 7 - date1.getDay()) % 7);
+
+	var date2 = new Date();
+	date2.setDate(date1.getDate() + 7);
+
+	var date3 = new Date();
+	date3.setDate(date2.getDate() + 7);
+
 	let options = {
 		width: "300px",
 		border: true,
@@ -27,13 +36,13 @@ function App() {
 				<div className="App-event">
 					<ul className="App-eventList">
 						<li className="App-eventListItem is-animated">
-							<span>2023-10-18</span><img src={sugarprovider} className="App-eventImage" />
+							<span>{date1.toLocaleDateString()}</span><img src={sugarprovider} className="App-eventImage" />
 						</li>
 						<li className="App-eventListItem">
-							<span>2023-10-25</span><img src={sugarprovider} className="App-eventImage" />
+							<span>{date2.toLocaleDateString()}</span><img src={sugarprovider} className="App-eventImage" />
 						</li>
 						<li className="App-eventListItem">
-							<span>2023-11-01</span><img src={sugarprovider} className="App-eventImage" />
+							<span>{date3.toLocaleDateString()}</span><img src={sugarprovider} className="App-eventImage" />
 						</li>
 					</ul>
 				</div>
