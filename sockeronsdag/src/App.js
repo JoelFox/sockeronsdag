@@ -13,6 +13,8 @@ function App() {
 	var date3 = new Date();
 	date3.setDate(date2.getDate() + 7);
 
+	var isToday = new Date(date1).setHours(0,0,0,0) === (new Date()).setHours(0,0,0,0);
+
 	let options = {
 		width: "300px",
 		border: true,
@@ -31,18 +33,18 @@ function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<h1 className="App-headingH1">Sockeronsdag</h1>
-				<h4 className="App-subHeading">Upcoming event:</h4>
+				<h1 className="App-headingH1">{isToday ? "Idag är det " : ""}Sockeronsdag</h1>
+				<h4 className="App-subHeading">Upcoming events:</h4>
 				<div className="App-event">
 					<ul className="App-eventList">
 						<li className="App-eventListItem is-animated">
-							<span>{date1.toLocaleDateString()}</span><img src={sugarprovider} className="App-eventImage" />
+							<span>{date1.toLocaleDateString("sv-SE")}</span><img src={sugarprovider} className="App-eventImage" />
 						</li>
 						<li className="App-eventListItem">
-							<span>{date2.toLocaleDateString()}</span><img src={sugarprovider} className="App-eventImage" />
+							<span>{date2.toLocaleDateString("sv-SE")}</span><img src={sugarprovider} className="App-eventImage" />
 						</li>
 						<li className="App-eventListItem">
-							<span>{date3.toLocaleDateString()}</span><img src={sugarprovider} className="App-eventImage" />
+							<span>{date3.toLocaleDateString("sv-SE")}</span><img src={sugarprovider} className="App-eventImage" />
 						</li>
 					</ul>
 				</div>
